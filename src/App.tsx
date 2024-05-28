@@ -29,7 +29,7 @@ const PrivateRoute: React.FC<PrivateRouteProps> = ({ children }) => {
 
 const App: React.FC = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <UserProvider>
         <Header /> {/* 全てのページで表示されるヘッダー */}
         <Routes>
