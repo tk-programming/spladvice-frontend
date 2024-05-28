@@ -1,0 +1,36 @@
+.articles {
+  display: flex;
+  flex-direction: column;
+}
+
+.articles-ranking {
+  flex: 0.5; /* 順位の割合 */
+  font-size: 20px;
+  font-weight: bold;
+  color: #4422ff; /* スプラトゥーン3の青 */
+  text-align: center;
+  margin: 5px;
+}
+
+.articles-img {
+  flex: 0.5; /* 画像の割合 */
+  object-fit: cover;
+  margin: 5px;
+}
+
+.articles-title {
+  flex: 2.5; /* タイトルの割合 */
+  font-size: 18px;
+  margin: 5px;
+}
+
+.articles-content {
+  flex: 5; /* 記事内容の割合 */
+  margin: 5px;
+}
+
+.articles-display-name {
+  flex: 1; /* 記事内容の割合 */
+  color: #666;
+  margin: 5px;
+}

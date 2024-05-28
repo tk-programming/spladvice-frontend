@@ -1,0 +1,31 @@
+.top-container {
+  display: flex;
+  justify-content: space-between; /* 左右にコンテンツを配置 */
+  align-items: center; /* 垂直方向の中央揃え */
+  min-height: 100vh;
+  background: #fffef4;
+  background-size: cover;
+  background-position: center;
+  color: #4422ff;
+  margin: 20px;
+  font-weight: bold;
+}
+
+.top-container h1 {
+  font-size: 100px;
+  margin-bottom: 20px;
+}
+
+.top-container div {
+  margin-bottom: 20px;
+}
+
+.center-left,
+.center-right {
+  flex: 1; /* 同じ幅でコンテンツを伸ばす */
+}
+
+/* 仮画像用 */
+.top-img {
+  width: 100%;
+}

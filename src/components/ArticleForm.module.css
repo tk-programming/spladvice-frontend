@@ -1,0 +1,65 @@
+/* ヘッダー */
+.form-header {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* 入力フィールドのスタイル */
+.form-style input[type="text"],
+textarea {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.image-gallery {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.input-buki {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 20px;
+}
+
+.form-child {
+  border: 1px solid #ccc; /* 枠線の色 */
+  border-radius: 4px; /* 枠線の角を丸くする */
+  padding: 8px; /* 内側の余白 */
+  margin-bottom: 16px; /* 下のマージン */
+}
+
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.confirmation-modal {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+  z-index: 1001;
+}

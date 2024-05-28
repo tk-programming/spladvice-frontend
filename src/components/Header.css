@@ -1,0 +1,32 @@
+/* ヘッダー */
+header {
+  background-color: #4422ff; /* スプラトゥーン3の青 */
+  color: #f8ff26; /* スプラトゥーン3の黄色 */
+  padding: 10px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: space-between; /* 左右にコンテンツを配置 */
+  align-items: center; /* 垂直方向の中央揃え */
+}
+
+header h1 {
+  margin-left: 20px; /* 左側の余白を追加 */
+  font-size: 50px;
+}
+
+header h1:hover {
+  cursor: pointer; /* ホバー時のカーソルをポインターに */
+}
+
+/* ナビゲーションバーのボタンスタイル */
+.nav-bar {
+  display: flex;
+  gap: 10px; /* ボタン間のスペースを追加 */
+}
+
+.nav-bar button {
+  border: none; /* ボタンの境界線を削除 */
+  background-color: transparent; /* 背景を透明に */
+  color: #f8ff26; /* テキストの色を黄色に */
+  cursor: pointer;
+}

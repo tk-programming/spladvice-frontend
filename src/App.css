@@ -1,0 +1,96 @@
+.App {
+  font-family: "Arial", sans-serif;
+  text-align: center;
+  background-color: #f7f7f7;
+  color: #333;
+  padding: 20px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+h1 {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+li {
+  background-color: white;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  align-items: center;
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+}
+
+li:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+
+h3 {
+  color: #4422ff;
+}
+
+p {
+  color: #555;
+}
+
+img {
+  width: 100px;
+}
+
+.component-top {
+  margin: 10px;
+  padding: 10px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+button {
+  background: #4422ff; /* スプラトゥーン3の青 */
+  color: #f8ff26; /* スプラトゥーン3の黄色 */
+  font-weight: bold;
+  border: 0;
+  outline: 0;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+  font-size: calc(2vmin);
+}
+
+button:hover {
+  background: #7961ff; /* スプラトゥーン3の青 */
+  box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* プレースホルダーのスタイル */
+::placeholder {
+  color: #888;
+}
+
+.ql-editor {
+  height: 500px;
+  font-size: calc(2vmin);
+}

@@ -1,0 +1,119 @@
+/* 記事コンテナ */
+.article-container {
+  width: 80%;
+  margin: auto;
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.buki-name {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* 記事タイトル */
+.article-title {
+  border-bottom: 2px solid #eaeaea;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+/* 記事内容 */
+.article-content {
+  margin: 20px 0;
+}
+
+/* 記事内容 */
+.article-likes {
+  margin: 20px 0;
+}
+
+/* ボタンコンテナ */
+.button-container {
+  display: flex;
+  justify-content: flex-start;
+}
+
+/* 共通ボタンスタイル */
+.button-common {
+  background: #4422ff; /* スプラトゥーン3の青 */
+  color: #f8ff26; /* スプラトゥーン3の黄色 */
+  font-weight: bold;
+  border: 0;
+  outline: 0;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+.button-common:hover {
+  background: #7961ff; /* スプラトゥーン3の青 */
+  box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2);
+}
+
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.confirmation-modal {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+  z-index: 1001;
+}
+
+.confirmation-modal p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.confirmation-modal button {
+  border: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* OKボタンのスタイル */
+.confirmation-modal .confirm-button {
+  background-color: #f44336;
+  color: white;
+}
+
+/* キャンセルボタンのスタイル */
+.confirmation-modal .cancel-button {
+  background-color: #4caf50;
+  color: white;
+}
+
+.confirmation-modal .confirm-button:hover {
+  background-color: #e57373; /* ホバー時の背景色を変更 */
+}
+
+.confirmation-modal .cancel-button:hover {
+  background-color: #66bb6a; /* ホバー時の背景色を変更 */
+}
+
+.liked {
+  /* いいねしていないスタイル */
+  background: gray;
+  color: black;
+}
