@@ -55,7 +55,7 @@ const ArticleRanking: React.FC = () => {
             <div className={styles["articles-ranking"]}>{index + 1}傑</div>
             <img
               className={styles["articles-img"]}
-              src={`${process.env.PUBLIC_URL}/img/${article.bukiType}/${article.bukiImg}`}
+              src={`./spladvice-frontend/img/${article.bukiType}/${article.bukiImg}`}
             />
             <h3 className={styles["articles-title"]}>{article.title}</h3>
             <p className={styles["articles-content"]}>
