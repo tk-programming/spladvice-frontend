@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/spladvice-frontend/static/css/main.16067de3.css",
-    "main.js": "/spladvice-frontend/static/js/main.a4fb1bf3.js",
+    "main.js": "/spladvice-frontend/static/js/main.b5dce79f.js",
     "static/js/453.7d078999.chunk.js": "/spladvice-frontend/static/js/453.7d078999.chunk.js",
     "index.html": "/spladvice-frontend/index.html",
     "main.16067de3.css.map": "/spladvice-frontend/static/css/main.16067de3.css.map",
-    "main.a4fb1bf3.js.map": "/spladvice-frontend/static/js/main.a4fb1bf3.js.map",
+    "main.b5dce79f.js.map": "/spladvice-frontend/static/js/main.b5dce79f.js.map",
     "453.7d078999.chunk.js.map": "/spladvice-frontend/static/js/453.7d078999.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.16067de3.css",
-    "static/js/main.a4fb1bf3.js"
+    "static/js/main.b5dce79f.js"
   ]
 }
