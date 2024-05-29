@@ -139,7 +139,7 @@ const ArticleForm: React.FC<Article> = () => {
             {selectedBuki && (
               <img
                 key={selectedBuki.id}
-                src={`/img/${selectedBuki.type}/${selectedBuki.img}`}
+                src={`./img/${selectedBuki.type}/${selectedBuki.img}`}
                 alt={selectedBuki.id}
               />
             )}

@@ -122,7 +122,7 @@ const ArticleDetail: React.FC = () => {
       <div className={styles["buki-container"]}>
         <div className={styles["buki-name"]}>{article.bukiName}</div>
         <img
-          src={`/img/${article.bukiType}/${article.bukiImg}`}
+          src={`./img/${article.bukiType}/${article.bukiImg}`}
           alt={article.bukiName}
         />
       </div>

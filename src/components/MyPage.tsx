@@ -77,7 +77,7 @@ const MyPage: React.FC = () => {
                 {/* <div className={styles["articles-ranking"]}>{index + 1}</div> */}
                 <img
                   className={styles["articles-img"]}
-                  src={`/img/${article.bukiType}/${article.bukiImg}`}
+                  src={`./img/${article.bukiType}/${article.bukiImg}`}
                 />
                 <h3 className={styles["articles-title"]}>{article.title}</h3>
                 <p className={styles["articles-content"]}>

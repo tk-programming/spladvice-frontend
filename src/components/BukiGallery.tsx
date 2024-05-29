@@ -80,7 +80,7 @@ const BukiGallery: React.FC<BukiGalleryProps> = ({ onBukiClick }) => {
                   .map((item) => (
                     <img
                       key={item.id}
-                      src={`/img/${bukiType.type}/${item.img}`}
+                      src={`./img/${bukiType.type}/${item.img}`}
                       alt={item.id}
                       className={
                         selectedBukiId === item.id
