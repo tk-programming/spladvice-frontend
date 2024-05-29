@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/spladvice-frontend/static/css/main.16067de3.css",
-    "main.js": "/spladvice-frontend/static/js/main.b0396ba3.js",
-    "static/js/453.7d078999.chunk.js": "/spladvice-frontend/static/js/453.7d078999.chunk.js",
-    "index.html": "/spladvice-frontend/index.html",
-    "main.16067de3.css.map": "/spladvice-frontend/static/css/main.16067de3.css.map",
-    "main.b0396ba3.js.map": "/spladvice-frontend/static/js/main.b0396ba3.js.map",
-    "453.7d078999.chunk.js.map": "/spladvice-frontend/static/js/453.7d078999.chunk.js.map"
+    "main.css": "/static/css/main.16067de3.css",
+    "main.js": "/static/js/main.19b97ac1.js",
+    "static/js/453.7d078999.chunk.js": "/static/js/453.7d078999.chunk.js",
+    "index.html": "/index.html",
+    "main.16067de3.css.map": "/static/css/main.16067de3.css.map",
+    "main.19b97ac1.js.map": "/static/js/main.19b97ac1.js.map",
+    "453.7d078999.chunk.js.map": "/static/js/453.7d078999.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.16067de3.css",
-    "static/js/main.b0396ba3.js"
+    "static/js/main.19b97ac1.js"
   ]
 }
