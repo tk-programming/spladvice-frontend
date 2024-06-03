@@ -30,3 +30,15 @@ header h1:hover {
   color: #f8ff26; /* テキストの色を黄色に */
   cursor: pointer;
 }
+
+/* スマホ用のスタイル */
+@media screen and (max-width: 767px) {
+  /* ヘッダー */
+  header {
+    flex-direction: column;
+  }
+
+  .nav-bar button {
+    margin: 0px;
+  }
+}

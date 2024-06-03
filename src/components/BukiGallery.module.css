@@ -69,3 +69,10 @@
   filter: grayscale(20%); /* 選択されていない画像をグレーアウト */
   opacity: 0.6;
 }
+
+/* スマホ用のスタイル */
+@media screen and (max-width: 767px) {
+  .buki-type-container img {
+    width: 50px;
+  }
+}
