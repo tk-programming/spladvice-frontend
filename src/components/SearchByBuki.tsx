@@ -8,6 +8,7 @@ import styles from "./ArticlesCommon.module.css";
 
 const SearchByBuki: React.FC = () => {
   const [articles, setArticles] = useState<Article[]>([]);
+  const [showSearchCnt, setShowSearchCnt] = useState(false);
   const navigate = useNavigate();
 
   const fetchArticlesByBukiId = async (imageId: string) => {
@@ -39,6 +40,7 @@ const SearchByBuki: React.FC = () => {
 
   const handleBukiClick = (selectedBuki: Buki) => {
     fetchArticlesByBukiId(selectedBuki.id);
+    setShowSearchCnt(true);
   };
 
   const handleArticleClick = (articleId: string) => {
@@ -52,6 +54,7 @@ const SearchByBuki: React.FC = () => {
       {/* 記事一覧を表示 */}
       <div className={`${styles["articles"]} component-top`}>
         <h2>検索結果一覧</h2>
+        {showSearchCnt && <p>検索結果：{articles.length}件</p>}
         <ul className={styles["articles-container"]}>
           {articles.map((article, index) => (
             <li
